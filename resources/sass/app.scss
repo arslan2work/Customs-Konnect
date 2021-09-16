@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path:"../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+.router-link-exact-active{
+    background-color: blueviolet;
+    color: white !important;
+}
+.form-control-md{
+    width: 300px;
+}
+.file{
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+}
+.input{
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+  top: 0;
+}
+.ml{
+    margin-left: 140px;
+}
+button{
+    border: none;
+}
+.status-width{
+    width: 500px !important;
+}
+.btn-dis{
+    display: inline !important;
+}
